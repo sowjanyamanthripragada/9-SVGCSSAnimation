@@ -1,0 +1,49 @@
+.rectangle1{
+    box-sizing: border-box;
+    width: 954px;
+    height: 394px;
+    top: 153px;
+    left: 243px;
+    padding: 80px; 
+    
+  }
+
+  .flex-container{
+    background-color: #e2e7e7;
+    max-width: 1000px;
+    height: 800px;
+    display: flex;
+    padding:50px;
+    
+  }
+
+  .rectangle2 {
+    width: 345px;
+    height: 594px;
+    top:153px;
+    left:852px;
+    transform: translate();
+  }
+  .image1{
+    width: 300px;
+    height: 250px;
+    top:153px;
+    left:852px;
+    
+    
+}
+.textcontent{
+    font-family: "Roboto", Helvetica;
+    font-size: 24px;
+    font-weight:bold;
+    color: #db0720;
+    text-decoration: none;
+    animation: mymove 15s infinite;
+    rotate: 30deg;
+
+}
+@keyframes mymove {
+    from {color: red;}
+    to {color: blue;}
+    
+  }
