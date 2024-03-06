@@ -42,8 +42,23 @@
     rotate: 30deg;
 
 }
-@keyframes mymove {
-    from {color: red;}
-    to {color: blue;}
+
+.headerclass{
+  font-family: "Roboto", Helvetica;
+  font-size: 24px;
+  font-weight:bold;
+  color: #db0720;
+  text-decoration: none;
+  animation: mymove 15s infinite;
+  text-align: center;
+
+}
+
+
+  .handmade.container
+  {
+   width: 300px;
+   height: 400px;
+   background-image: url(images/svtgest.svg);
     
   }
