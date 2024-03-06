@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/animate.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>SVG and CSS transformation</title>
 </head>
 
@@ -15,20 +16,25 @@
     <main>
         <section>
             <header>
-                <h2 class="headerclass">SVG and CSS transformation</h2>
+                <h2 class="headerclass animate__zoomIn">SVG and CSS transformation</h2>
             </header>
             <div class="flex-container">
                 <div class="rectangle1">
-                    <p class="textcontent"> Created SVG in HTML </p>
-                    <svg width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <p class="textcontent animate__slideInLeft"> Created SVG in HTML </p>
+                    <svg class="image1" width="240" height="240" viewbox="0 0 240 240" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <circle cx="110" cy="110" r="100" stroke-width="20" fill="white" stroke="#20B2AA" />
                         <polyline points="70,120 100,165 150,80" stroke="#20B2AA" stroke-width="20"
                             stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
 
                 </div>
+                <div class="rectangle3">
+                    <p class="textcontent animate__rotateInDownLeft"> SVG as image tag</p>
+                    <img class="image1" src="images/Projectsvg.svg" alt="Project SVG">
+                </div>
                 <div class="rectangle2">
-                    <p class="textcontent"> Embedded SVG file(s) in HTML</p>
+                    <p class="textcontent animate__slideInRight"> Embedded SVG file(s) in HTML</p>
                     <svg>
                         <use xlink:href="images/svgtest.svg#svgtest1"></use>
                     </svg>
